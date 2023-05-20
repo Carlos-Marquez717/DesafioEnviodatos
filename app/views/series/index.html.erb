@@ -1,0 +1,17 @@
+<CENTER><h1>SERIES</h1><CENTER>
+
+<% @series.each do |serie| %>
+  <p>
+    <strong>Name:</strong>
+    <%= serie.name %>
+  </p>
+  <p>
+    <strong>Synopsis:</strong>
+    <%= serie.synopsis %>
+  </p>
+  <p>
+    <strong>Director:</strong>
+    <%= serie.director %>
+  </p>
+  <hr>
+<% end %>
